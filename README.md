@@ -30,16 +30,16 @@ A gameplay showcase of the asset being used:
 
 #### Scripts
 
-* BubbleHitAction.cs
+* BubbleBulletHit.cs
 
   Check the collision of the bubble bullet with a gameobject and wrap that gameobject into a bubble.
 
-  Important: Currently for demonstration purposes the bubble collider reacts to all gameobjects. You need to adapt the code to filter out gameobjects which shouldn't be affected, e. g. consider tags or a layers.
+  Important: Currently for demonstration purposes the bubble collider reacts to all gameobjects. You need to adapt the code to filter out gameobjects which shouldn't be affected, e. g. consider tags or layers.
 
 * BubbleTarget.cs
 
-  There are situations where the pivot of the gameobject is on the outer bounds. This makes the wrapped gameobject spin offset, i. e. not in center.
-  When this script is attached to the hit gameobject, then the data in there will be used, e. g. optionally that object's pivot instead of the gameobject's. Or you can specify a fixed diameter instead of having it calculated.
+  Optional script. There are situations where the pivot of the gameobject is on the outer bounds. This makes the wrapped gameobject spin with an offset, i. e. not in center.
+  When this script is attached to the hit gameobject, then the data in there will be used, e. g. optionally the child gameobject's pivot (to which this script is attached) instead of the parent gameobject's pivot. Or you can specify a fixed diameter instead of having it calculated.
 
 
 #### Prefabs
@@ -50,7 +50,7 @@ A gameplay showcase of the asset being used:
 
 * BubbleBullet
 
-  A particle system with bubbles which is being used as a bullet. Upon hit detection with a gameobject a bubble is being instantiated and the gameobject is being wrapped into the bubble.
+  A particle system with bubbles which is being used as a bullet. Upon hit detection with a gameobject a BubbleBall is being instantiated and the gameobject is being wrapped into the BubbleBall.
 
 * BubbleBurst
 
@@ -59,11 +59,11 @@ A gameplay showcase of the asset being used:
 
 ## Malbers Integration
 
-If you use this with the Malbers Animals, check the region "Malbers specific" and uncomment the code. This will deactivate various scripts in order to keep the animals in the bubble.
+If you use this with the Malbers Animals, check the region "Malbers specific" in BubbleBulletHit.cs and uncomment the code. On collision this will deactivate various scripts of the animals in order to keep them in the bubble.
 
 ## Planned Features
 
-* consider wind
+* Consider Wind
 
 ## Credits
 
