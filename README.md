@@ -24,7 +24,7 @@ Here's a demo video of the project:
 
 A gameplay showcase of the asset being used:
 
-[![Bubble Bobble Type Showcase](https://img.youtube.com/vi/k4haW6mZ8hk/0.jpg)](https://www.youtube.com/watch?v=k4haW6mZ8hk)
+[![Bubble Bobble Type Showcase](https://img.youtube.com/vi/Nb_QU-pKRbg/0.jpg)](https://www.youtube.com/watch?v=Nb_QU-pKRbg)
 
 ## Package Info
 
