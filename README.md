@@ -8,7 +8,11 @@ The bubble shader code is from Seyed Morteza Kamali and freely available, so man
 
 * create a new Unity 2019.4.2f1 project
 
-* download and import the project from https://bit.ly/BubbleBallSource
+* install Post Processing via the Package Manager (used in the demo scene)
+
+* switch Color Space to Linear
+
+* download and import the project from the GitHub repository https://bit.ly/BubbleBallSource
 
 * load the demo scene Assets/BubbleBall/_Demo/BubbleBall
 
