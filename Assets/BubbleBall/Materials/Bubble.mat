@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bubble
+  m_Shader: {fileID: 4800000, guid: 7570cc416c95a6c42abd30c196513d55, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BubbleTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorRamp:
+        m_Texture: {fileID: 2800000, guid: f54957d73b8a34449bcc47aab4d56848, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: d620a9e073f94d64f9cffeb52d0e5edd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrabNoise:
+        m_Texture: {fileID: 2800000, guid: 644bef20eee6ecb45bcd1350598d3eb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 644bef20eee6ecb45bcd1350598d3eb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RainBow:
+        m_Texture: {fileID: 2800000, guid: d9f21ecf4f30a7a4b98510234e17fc5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindMap:
+        m_Texture: {fileID: 2800000, guid: 7c9166b9623116a4f9fedfa71c7a4ddd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.429
+    - _Blend: 0.493
+    - _Brightness: 0.5
+    - _BumpPower: 0.581
+    - _ColorRampIntensity: 2.24
+    - _Contrast: 0.5
+    - _Distortion: 3.9
+    - _Glossiness: 0.362
+    - _GrabPassDistortion: -1.19
+    - _Hue: 0
+    - _Intensity: 5.31
+    - _Metallic: 1
+    - _RimPower: 1.69
+    - _Saturation: 0.5
+    - _Smoothness: 0.643
+    - _Speed: 0.3
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Direction: {r: 0.07, g: -0.01, b: 0.01, a: 0}
+    - _RimColor: {r: 0.26, g: 0.19, b: 0.16, a: 0}
