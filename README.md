@@ -4,10 +4,27 @@ BubbleBall consists of various prefabs and actions which allow you to e. g. fire
 
 The bubble shader code is from Seyed Morteza Kamali and freely available, so many thanks and full credit to him for his great work!
 
+## Quick Setup
+
+* create a new Unity 2019.4.2f1 project
+
+* download and import the project from https://bit.ly/BubbleBallSource
+
+* load the demo scene Assets/BubbleBall/_Demo/BubbleBall
+
+* hit play
+
 ## Demo
 
-Open the BubbleBall demo scene in the _Demo folder. When you hit play you can select the primitives which will make the cannon rotate towards them and fire at them when they are in range.
+Open the BubbleBall demo scene and hit play. Use the left mousebutton to select the primitives which will make the cannon rotate towards them and fire at them when they are in range.
 
+Here's a demo video of the project:
+
+[![Bubble Ball](https://img.youtube.com/vi/VABkmazYbyA/0.jpg)](https://www.youtube.com/watch?v=VABkmazYbyA)
+
+A gameplay showcase of the asset being used:
+
+[![Bubble Bobble Type Showcase](https://img.youtube.com/vi/k4haW6mZ8hk/0.jpg)](https://www.youtube.com/watch?v=k4haW6mZ8hk)
 
 ## Package Info
 
