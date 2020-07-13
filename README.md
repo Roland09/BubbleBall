@@ -1,6 +1,6 @@
 # BubbleBall
 
-BubbleBall consists of various prefabs and actions which allow you to e. g. fire a burst of bubbles towards a gameobject, have it wrapped around a bubble and fly away.
+BubbleBall consists of various prefabs and actions which allow you to e. g. fire a burst of bubbles towards a gameobject, have it wrapped inside a bubble and fly away.
 
 The bubble shader code is from Seyed Morteza Kamali and freely available, so many thanks and full credit to him for his great work!
 
