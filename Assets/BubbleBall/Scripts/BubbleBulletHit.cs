@@ -100,8 +100,6 @@ namespace BubbleBall
 
             #endregion Disable behaviours
 
-            Bounds bounds = hitTransform.GetComponentInChildren<Renderer>().bounds;
-
             BubbleTarget bubbleCenterGO = hitTransform.GetComponentInChildren<BubbleTarget>();
 
             float bubbleDiameter;
@@ -111,6 +109,8 @@ namespace BubbleBall
             }
             else
             {
+                Bounds bounds = hitTransform.GetComponentInChildren<Renderer>().bounds;
+
                 // calculate a surrounding scale by assuming we have a box and calculating the diagonal using sqrt(x*x+y*y+z*z)
                 bubbleDiameter = Mathf.Sqrt(bounds.size.x * bounds.size.x + bounds.size.y * bounds.size.y + bounds.size.z * bounds.size.z);
 
